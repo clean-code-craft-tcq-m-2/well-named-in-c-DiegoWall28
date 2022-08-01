@@ -43,7 +43,7 @@ void printPairs(){
     int j = 0;
      for(i = 0; i < numberOfMajorColors; i++ ){
         for(j = 0; j < numberOfMinorColors; j++ ){
-            printf("Number: %d Major: %s Minor: %s\n", counter, MajorColor[i], MinorColor[j]);
+            printf("Number: %d Major: %s Minor: %s\n", counter, MajorColorNames[i], MinorColorNames[j]);
             counter++;
         }
     }
